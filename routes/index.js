@@ -3,8 +3,6 @@ const { default: mongoose } = require('mongoose');
 var router = express.Router();
 const {Movie,Ticket} = require('../library/auth')
 
-
-
 /* GET home page. */
 router.post('/postmovie',async(req,res)=>{
   
